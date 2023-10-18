@@ -116,7 +116,7 @@ void ccRecentFiles::openFileFromAction()
 QStringList ccRecentFiles::listRecent()
 {	
 	QStringList list = m_settings.value( s_settingKey ).toStringList();
-	
+	/*
 	QStringList::iterator iter = list.begin();
 	
 	while ( iter != list.end() )
@@ -131,7 +131,7 @@ QStringList ccRecentFiles::listRecent()
 		
 		++iter;
 	}
-	
+	*/
 	return list;
 }
 
